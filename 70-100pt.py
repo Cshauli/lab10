@@ -25,10 +25,16 @@ square = drawpad.create_rectangle(200,200,350,350, fill='red')
 line1 = drawpad.create_line(275,100, 200, 200)
 line2 = drawpad.create_line(275, 100, 350, 200)
 #door
-door = drawpad.create_rectangle(265,300,290, 350, fill= 'purple')
+door = drawpad.create_rectangle(265,300,290, 350, fill= 'brown')
 #windows
-window1 = drawpad.create_rectangle(220,220,250,250)
-window2 = drawpad.create_rectangle(300,220,330,250)
+window1 = drawpad.create_rectangle(220,220,250,250, fill = 'black')
+window2 = drawpad.create_rectangle(300,220,330,250,fill = 'black')
+#door handle
+handle = drawpad.create_oval(277,320,286,330, fill = 'yellow')
+#chimney
+line3 = drawpad.create_line(295,125,295,80)
+line4 = drawpad.create_line(295,80,325,80)
+line5 = drawpad.create_line(325,165,325,80)
 root.mainloop()
 
 
