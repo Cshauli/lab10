@@ -22,10 +22,17 @@ drawpad.grid(row=0, column=1)
 #creating the house
 square = drawpad.create_rectangle(200,200,350,350, fill='red')
 #creating the roof
-line = drawpad.create_line(275,100, 200, 200)
+line1 = drawpad.create_line(275,100, 200, 200)
 line2 = drawpad.create_line(275, 100, 350, 200)
+#door
+door = drawpad.create_rectangle(265,300,290, 350, fill= 'purple')
+#windows
+window1 = drawpad.create_rectangle(220,220,250,250)
+window2 = drawpad.create_rectangle(300,220,330,250)
 root.mainloop()
-print oval
-print square
-print line
-print line2
+
+
+
+
+
+
