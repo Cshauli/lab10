@@ -35,6 +35,8 @@ handle = drawpad.create_oval(277,320,286,330, fill = 'yellow')
 line3 = drawpad.create_line(295,125,295,80)
 line4 = drawpad.create_line(295,80,325,80)
 line5 = drawpad.create_line(325,165,325,80)
+#grass
+grass = drawpad.create_rectangle(0,350,800,375, fill = 'green')
 root.mainloop()
 
 
